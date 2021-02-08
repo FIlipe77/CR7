@@ -1,12 +1,14 @@
 import React from 'react';
-import './App.css';
-import { Navbar } from './components/Navbar';
+
+import { Biography } from './processes/biography';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Home } from './processes/Home';
-import { Biography } from './processes/Biography';
-import { Products } from './processes/Products';
-import { SignUp } from './processes/SignUp';
-import ScrollToTop from './components/shared/ScrollToTop';
+import { Home } from './processes/home';
+import { Navbar } from './components/navbar';
+import { Products } from './processes/products';
+import { SignUp } from './processes/sign-up';
+import ScrollToTop from './components/shared/scroll-to-top';
+
+import './App.css';
 
 function App() {
   return (

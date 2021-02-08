@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export interface ICardItem {
+export interface IBoxItem {
     src: string;
     text: string;
     label: string;
     path: string;
 }
 
-export const CardItem: React.FC<ICardItem> = (props) => {
+export const BoxItem: React.FC<IBoxItem> = (props) => {
     return (
         <li className="cards__item">
             <Link to={props.path} className="cards__item__link">

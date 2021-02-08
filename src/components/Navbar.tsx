@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
+
 import { Link } from 'react-router-dom';
-import { Button } from './button/Button';
-import './Navbar.css';
+import { Button } from './button/button';
+
+import './navbar.css';
 
 /* HELP https://levelup.gitconnected.com/using-react-functional-components-with-hooks-in-typescript-6d61075edddc */
 

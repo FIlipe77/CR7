@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from '../button/Button'
-import "./Footer.css"
+import { Button } from '../button/button'
+import "./footer.css"
 
 export const Footer: React.FC = () => {
     return (

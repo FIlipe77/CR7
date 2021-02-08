@@ -1,7 +1,9 @@
 import React from 'react';
+
+import { Button } from './button/button';
+
 import '../App.css';
-import { Button } from './button/Button';
-import './HeroSection.css';
+import './hero-section.css';
 
 export const HeroSection: React.FC = () => {
     return (
