@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import { Link } from 'react-router-dom';
-import { Button } from './button/button';
+import { Button, CountDown } from './';
 
 import './navbar.css';
 
@@ -76,6 +76,9 @@ export const Navbar: React.FC = () => {
                                 onClick={closeMobileMenu}>
                                 Sign up
                             </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <CountDown className='nav-links'/>
                         </li>
                     </ul>
                     {button && <Button buttonSize='btn--outline'>SIGN UP</Button>}

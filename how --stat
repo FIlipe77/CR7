@@ -1,0 +1,15 @@
+[33mcommit 2e71a9e75873d7b15babeb4d80145625e6a76604[m[33m ([m[1;36mHEAD -> [m[1;32mUAT[m[33m, [m[1;31morigin/UAT[m[33m)[m
+Author: Filipe <filipemacedo07@hotmail.com>
+Date:   Mon Feb 8 20:51:21 2021 +0000
+
+    Renamed components
+
+ rename src/components/{Cards.css => box-section/box-section.css} (100%)
+ rename src/components/{Cards.tsx => box-section/box-section.tsx} (86%)
+ rename src/components/{CardItem.tsx => box/box-item.tsx} (89%)
+ rename src/components/{HeroSection.css => hero-section.css} (100%)
+ rename src/components/{HeroSection.tsx => hero-section.tsx} (92%)
+ create mode 100644 src/components/index.ts
+ rename src/components/shared/{ScrollToTop.tsx => scroll-to-top.ts} (99%)
+ create mode 100644 src/processes/index.ts
+ rename src/processes/{SignUp.tsx => sign-up.tsx} (100%)
